@@ -80,3 +80,451 @@ section {
   @extend .btn-primary;
   @extend .btn-xs;
 }
+h1{
+  color: white;
+  font-size: 3em;
+  margin: 0;
+  -webkit-text-stroke: 2.2px black;
+  font-weight: bolder;
+  text-align: center;
+  cursor:text;
+border-style: double;
+  padding:px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  font-size: 38px;
+  font-weight: bolder;
+  -webkit-text-stroke: 2px blue;
+ color: white;
+ text-shadow:
+     3px 3px 0 #000,
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  text-align:center;
+  padding: 7px 10px 8px 10px !important;
+width: 500px;
+background-color: black;
+border: 8px solid white;
+border-radius: 12px;
+}
+h2{
+  color:white;
+  background-color: black;
+}
+input{
+  color:red;
+  text-align: center;
+
+}
+img.fit7{
+  width: 99px;
+  display: block;
+  height: 86px;
+
+}
+img.fit{
+  width: 65px;
+    display: block;
+    height: 40px;
+}
+img.fit4{
+  width: 55px;
+  display: block;
+}
+img.fit1{
+  width: 45px;
+  display: block;
+}
+img.fit2{
+  width: 95px;
+  display: block;
+  margin: 0 auto;
+}
+img.fit3{
+  width: 65px;
+  display: block;
+  margin: auto;
+  margin-left: 101px;
+}
+input.fit2{
+  width: 95px;
+  display: block;
+  margin: 0 auto;
+  color: black;
+  font-weight: bolder;
+}
+
+#myimage{
+  width: 120px;
+  height: 120px;
+}
+
+#myimage1{
+  width: 120px;
+  height: 120px;
+}
+
+body{
+  text-align: center;
+  background-color: silver;
+  background-image: url('img/water-1945991_1920.jpg');
+  background-repeat: no-repeat;
+background-position: center;
+background-size:cover;
+background-attachment: fixed;
+}
+input[type=text] {
+    width: 330px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 44px;
+    margin-left: 50px;
+}
+#filter{
+  text-align: center;
+  cursor:pointer;
+border-style: double;
+  padding:px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  font-size: 38px;
+  font-weight: bolder;
+  -webkit-text-stroke: 2px blue;
+ color: white;
+ text-shadow:
+     3px 3px 0 #000,
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  text-align:center;
+  padding: 7px 10px 8px 10px !important;
+width: 500px;
+background-color: black;
+border: 8px outset white;
+border-radius: 12px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#download {
+  text-align: center;
+  cursor:pointer;
+border-style: double;
+  padding:px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  font-size: 38px;
+  font-weight: bolder;
+  -webkit-text-stroke: 2px blue;
+ color: white;
+ text-shadow:
+     3px 3px 0 #000,
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  text-align:center;
+  padding: 7px 10px 8px 10px !important;
+width: 500px;
+background-color: black;
+border: 8px outset white;
+border-radius: 12px;
+  	}
+  	#download:hover {
+  	    color:#fff;
+      }
+      /* Center the loader */
+#loader {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: auto;
+  border: 16px double silver;
+  border-radius: 50%;
+  border-top: 16px double red;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  margin-bottom: 20px;
+
+}
+
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 3s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+#conversation {
+    padding: 20px;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin: auto;
+}
+#conversation::before {
+    content:"";
+    height: 1px;
+    width: 200px;
+    background-color: black;
+    display: block;
+    margin: 10px auto;
+}
+#conversation img {
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    width: 350px;
+    height: 300px;
+}
+
+img#selector {
+      width:100%;
+      height:100%;
+    }
+
+main {
+    flex: 1;
+    margin: 20px auto;
+    max-width: 900px;
+    width: 900px;
+}
+
+.action, .recognized {
+    padding: 10px;
+    position: relative;
+    margin-bottom: 10px;
+    width:80%;
+}
+.action {
+    text-align: center;
+    background-color: black;
+    margin:auto;
+    border-radius: 5px 5px 0 5px;
+}
+.action:after {
+    content:"";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-width: 18px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+    bottom: 0px;
+    right: -17px;
+    text-align: center;
+    display: block;
+
+}
+.recognized {
+    text-align: center;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 18px;
+    display: block;
+    position: relative;
+    margin: auto;
+}
+.recognized:after {
+    content:"";
+    position: relative;
+    width: 0;
+    height: 0;
+    border-width: 18px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+    bottom: 0px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.recognized > div:before {
+    content: open-quote
+}
+.recognized > div:after {
+    content: close-quote
+}
+video{
+  border-width: thick;
+  border-color: white;
+border-style: double;
+text-align: center;
+margin:auto;
+position: relative;
+display: block;
+
+}
+#vid-thumb{
+  width: 100px;
+  text-align: center;
+position: relative;
+  display: inline-block;
+margin-left: 210px;
+  justify-content: center;
+
+}
+
+button{
+  height: 55px;
+  width: 55px;
+  border-radius: 50px;
+  background-color: red;
+  border-width: thick;
+  border-color: black;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  margin:auto;
+  position: relative;
+  display: block;
+}
+canvas{
+  border-width: thick;
+  border-color: white;
+border-style: double;
+text-align: center;
+margin:auto;
+position: relative;
+display: block;
+
+}
+label.fil{
+  color:white;
+  border-color: white;
+  font-size: 30px;
+background-color: black
+
+}
+#dowload.D{
+  color:red;
+  text-align: center;
+  margin: 0 auto;
+}
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    border-style: double;
+    border-radius: 10px;
+
+}
+
+li {
+  margin: auto;
+  text-align: center;
+
+}
+
+li a {
+    display:flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+margin: auto;
+
+
+}
+
+
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+img{
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  display: inline-block;
+}
