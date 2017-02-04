@@ -10,6 +10,14 @@ img {
 // override for the 'Home' navigation link
 .navbar-brand {
   font-size: inherit;
+ height: 90px;
+width: 90px;
+
+}
+  div.collapse.navbar-collapse{
+color:white;
+margin-top: 18px;
+
   }
 
 // THESE ARE EXAMPLES YOU CAN MODIFY
@@ -35,10 +43,12 @@ img {
 // to make views framework-neutral
 main {
   @extend .container;
-  background-color: #eee;
-  padding-bottom: 80px;
+  background-color: white;
+  padding-bottom: 2px;
+  padding-top: 50px;
+  height: 200px;
   width: 100%;
-  margin-top: 51px; // accommodate the navbar
+  margin: 0 auto; // accommodate the navbar
   }
 section {
   @extend .row;
@@ -170,7 +180,7 @@ input.fit2{
 body{
   text-align: center;
   background-color: silver;
-  background-image: url('img/water-1945991_1920.jpg');
+  background-image: url('');
   background-repeat: no-repeat;
 background-position: center;
 background-size:cover;
@@ -183,7 +193,7 @@ input[type=text] {
     border-radius: 4px;
     font-size: 16px;
     background-color: white;
-    background-image: url('searchicon.png');
+    background-image: url('');
     background-position: 10px 10px;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
@@ -204,7 +214,7 @@ body {
     width: 0;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 60px;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
