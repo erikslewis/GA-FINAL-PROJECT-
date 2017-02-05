@@ -15,7 +15,7 @@ width: 90px;
 
 }
   div.collapse.navbar-collapse{
-color:white;
+color:blue;
 margin-top: 18px;
 
   }
@@ -43,16 +43,12 @@ margin-top: 18px;
 // to make views framework-neutral
 main {
   @extend .container;
-  background-color: white;
+
   padding-bottom: 2px;
   padding-top: 50px;
   height: 200px;
   width: 100%;
   margin: 0 auto; // accommodate the navbar
-  }
-section {
-  @extend .row;
-  margin-top: 20px;
   }
 
 // Styles for form views
@@ -91,22 +87,20 @@ section {
   @extend .btn-xs;
 }
 h1{
-  color: white;
+
   font-size: 3em;
   margin: 0;
   -webkit-text-stroke: 2.2px black;
   font-weight: bolder;
   text-align: center;
   cursor:text;
-border-style: double;
-  padding:px;
   margin: 0 auto;
   display: block;
   position: relative;
   font-size: 38px;
   font-weight: bolder;
-  -webkit-text-stroke: 2px blue;
- color: white;
+  -webkit-text-stroke: 1px blue;
+ color: silver;
  text-shadow:
      3px 3px 0 #000,
    -1px -1px 0 #000,
@@ -116,9 +110,7 @@ border-style: double;
   text-align:center;
   padding: 7px 10px 8px 10px !important;
 width: 500px;
-background-color: black;
-border: 8px solid white;
-border-radius: 12px;
+
 }
 h2{
   color:white;
@@ -271,7 +263,8 @@ border-radius: 12px;
 
 #main {
     transition: margin-left .5s;
-    padding: 16px;
+    padding-top: 30px;
+    margin-left: -280px;
 }
 
 @media screen and (max-height: 450px) {
@@ -282,7 +275,6 @@ border-radius: 12px;
   text-align: center;
   cursor:pointer;
 border-style: double;
-  padding:px;
   margin: 0 auto;
   display: block;
   position: relative;
@@ -381,8 +373,8 @@ img#selector {
     }
 
 main {
-    flex: 1;
-    margin: 20px auto;
+
+
     max-width: 900px;
     width: 900px;
 }
@@ -449,17 +441,10 @@ text-align: center;
 margin:auto;
 position: relative;
 display: block;
+width: 400px;
 
 }
-#vid-thumb{
-  width: 100px;
-  text-align: center;
-position: relative;
-  display: inline-block;
-margin-left: 210px;
-  justify-content: center;
 
-}
 
 button{
   height: 55px;
