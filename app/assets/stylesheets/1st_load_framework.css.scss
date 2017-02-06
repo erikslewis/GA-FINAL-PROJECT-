@@ -124,22 +124,22 @@ input{
 
 }
 img.fit7{
-  width: 99px;
+  width: 199px;
   display: block;
-  height: 86px;
+  height: 186px;
 
 }
 img.fit{
   width: 65px;
     display: block;
-    height: 40px;
+    height: 60px;
 }
 img.fit4{
   width: 55px;
   display: block;
 }
 img.fit1{
-  width: 45px;
+  width: 65px;
   display: block;
 }
 img.fit2{
@@ -461,6 +461,7 @@ button{
   margin:auto;
   position: relative;
   display: block;
+  font-size: 12px;
 }
 canvas{
   border-width: thick;
@@ -532,4 +533,7 @@ article.art{
   margin-top: 60px;
   background-color: silver;
 
+}
+span{
+  color: silver;
 }
