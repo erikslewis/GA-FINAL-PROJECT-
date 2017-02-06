@@ -39,6 +39,14 @@
       <option value="contrast">Contrast</option>
       <option value="all-the-things">Shade</option>
       <option value="tint">Tint</option>
+      <option value="ig-toaster ">Toaster </option>
+        <option value="ig-xpro2">Pro X</option>
+      <option value="ig-kelvin">Kelvin</option>
+        <option value="ig-lofi">Lofi</option>
+        <option value="hefe">Hefe</option>
+        <option value="ig-brannan">Brannan</option>
+        <option value="ig-sierra ">Sierra </option>
+        <option value="ig-sutro">Sutro</option>
     </select>
 
     <button id="snapshot">Take Photo</button>
@@ -95,7 +103,41 @@
     -webkit-filter: sepia(1) hue-rotate(200deg);
     filter: sepia(1) hue-rotate(200deg);
 }
+.ig-toaster {
+  -webkit-filter:sepia(0.4) saturate(2.5) hue-rotate(-30deg) contrast(0.67);
+  -filter:sepia(0.4) saturate(2.5) hue-rotate(-30deg) contrast(0.67);
+}
+.ig-xpro2 {
+  -webkit-filter: contrast(1.3) brightness(0.8) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+  filter: contrast(1.3) brightness(0.8) sepia(0.3) saturate(1.5) hue-rotate(-20deg);
+}
 
+
+.ig-lofi {
+  filter: contrast(1.4) brightness(0.9) sepia(0.05);
+  -webkit-filter: contrast(1.4) brightness(0.9) sepia(0.05);
+}
+
+.ig-kelvin {
+  filter: sepia(0.4) saturate(2.4) brightness(1.3) contrast(1);
+  -webkit-filter: sepia(0.4) saturate(2.4) brightness(1.3) contrast(1);
+}
+.hefe {
+  -webkit-filter: contrast(1.3) sepia(0.3) saturate(1.3) hue-rotate(-10deg) brightness(0.95);
+  filter: contrast(1.3) sepia(0.3) saturate(1.3) hue-rotate(-10deg) brightness(0.95);
+}
+.ig-brannan {
+  -webkit-filter: sepia(0.5) contrast(1.4);
+  filter: sepia(0.5) contrast(1.4);
+}
+.ig-sierra {
+  -webkit-filter: contrast(0.8) saturate(1.2) sepia(0.15);
+  filter: contrast(0.8) saturate(1.2) sepia(0.15);
+}
+.ig-sutro {
+  -webkit-filter: brightness(0.75) contrast(1.3) sepia(0.5) hue-rotate(-25deg);
+  filter: brightness(0.75) contrast(1.3) sepia(0.5) hue-rotate(-25deg);
+}
     video {
       object-fit: cover;
     }
