@@ -33,6 +33,12 @@
       <option value="grayscale">Grayscale</option>
       <option value="invert">Invert</option>
       <option value="sepia">Sepia</option>
+      <option value="saturate">Saturate</option>
+      <option value="hue">Hue</option>
+      <option value="darken">Darken</option>
+      <option value="contrast">Contrast</option>
+      <option value="all-the-things">Shade</option>
+      <option value="tint">Tint</option>
     </select>
 
     <button id="snapshot">Take Photo</button>
@@ -64,6 +70,31 @@
       -webkit-filter: sepia(1);
       filter: sepia(1);
     }
+    .saturate{
+    filter: saturate(2);
+      -webkit-filter: saturate(2);
+}
+.hue {
+    filter: hue-rotate(140deg);
+      -webkit-filter: hue-rotate(140deg);
+}
+.darken {
+    filter: brightness(.5);
+      -webkit-filter: brightness(.5);
+}
+.contrast {
+    filter: contrast(2);
+      -webkit-filter: contrast(2);
+}
+
+.all-the-things {
+    filter: contrast(1.4) saturate(1.8) sepia(.6);
+      -webkit-filter: contrast(1.4) saturate(1.8) sepia(.6);
+}
+.tint {
+    -webkit-filter: sepia(1) hue-rotate(200deg);
+    filter: sepia(1) hue-rotate(200deg);
+}
 
     video {
       object-fit: cover;
@@ -75,15 +106,6 @@
 <script>
 'use strict';
 
-function openNav() {
-    document.getElementById("mySidenav").style.width = "450px";
-    document.getElementById("main").style.marginLeft = "250px";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-}
 
 
 
@@ -115,7 +137,7 @@ function downloadCanvas(link, canvasId, filename) {
  * parameter (=the link element), ID of the canvas and a filename.
 */
 document.getElementById('download').addEventListener('click', function() {
-    downloadCanvas(this, 'canvas', 'GoFilterYourSelf.png');
+    downloadCanvas(this, 'canvas', 'INSTAVIDTIME.png');
 }, false);
 
 
