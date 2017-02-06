@@ -12,11 +12,13 @@ img {
   font-size: inherit;
  height: 90px;
 width: 90px;
+margin-left: -33px;
 
 }
   div.collapse.navbar-collapse{
 color:blue;
 margin-top: 18px;
+margin-left: 160px;
 
   }
 
@@ -306,7 +308,7 @@ border-radius: 12px;
   margin: auto;
   border: 16px double silver;
   border-radius: 50%;
-  border-top: 16px double red;
+  border-top: 16px double blue;
   width: 100px;
   height: 100px;
   -webkit-animation: spin 2s linear infinite;
@@ -524,5 +526,10 @@ img{
 article{
   margin-top: 60px;
   background-color: black;
+
+}
+article.art{
+  margin-top: 60px;
+  background-color: silver;
 
 }
