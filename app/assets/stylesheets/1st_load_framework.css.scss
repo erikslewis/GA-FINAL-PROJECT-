@@ -89,7 +89,7 @@ main {
 h1{
 
   font-size: 3em;
-  margin: 0;
+
   -webkit-text-stroke: 2.2px black;
   font-weight: bolder;
   text-align: center;
@@ -511,8 +511,6 @@ margin: auto;
 
 }
 
-
-
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
@@ -522,4 +520,9 @@ img{
   margin: 0 auto;
   position: relative;
   display: inline-block;
+}
+article{
+  margin-top: 60px;
+  background-color: black;
+
 }
