@@ -6,5 +6,10 @@
   <li><%= link_to 'Sign up', new_user_registration_path %></li>
 <% end %>
 <% if user_signed_in? %>
-  <li><%= link_to 'Users', users_path %></li>
+
+  <li><%= link_to 'Video Call', users_path %></li>
+  <li><%= link_to 'Video Conference', users3_index_path %></li>
+  <li><%= link_to 'Camera', new_users3_path %></li>
+  <li><%= link_to 'Music Player', new_users2_path %></li>
+  <li><%= link_to 'Recording Studio', users2_index_path %></li>
 <% end %>
