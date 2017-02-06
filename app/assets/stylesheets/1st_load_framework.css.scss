@@ -15,7 +15,7 @@ width: 90px;
 margin-left: -33px;
 
 }
-  lapse.navbar-collapse{
+  collapse.navbar-collapse{
 color:blue;
 margin-top: 18px;
 margin-left: 160px;
@@ -536,4 +536,10 @@ article.art{
 }
 span{
   color: silver;
+}
+ul.nav.navbar-nav{
+  border-style: double;
+  border-color: blue;
+  margin-top: 18px;
+  margin-left: 80px;
 }
