@@ -3,10 +3,7 @@ ruby '2.3.1'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 gem 'heroku_secrets', github: 'alexpeattie/heroku_secrets'
   gem 'pg'
-  gem 'avatars_for_rails'
-  gem 'rmagick2.16.0' 
 
-gem "paperclip", "~> 5.0.0"
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
