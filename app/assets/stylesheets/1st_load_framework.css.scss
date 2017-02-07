@@ -541,7 +541,7 @@ center.C{
   display: inline-block;
 }
 span{
-  
+
   font-size: 35px;
   font-weight: bolder;
   -webkit-text-stroke: 1px blue;
@@ -562,5 +562,20 @@ ul.nav.navbar-nav{
   margin-left: 80px;
 }
 h3{
+  font-size: 35px;
+  font-weight: bolder;
+  -webkit-text-stroke: 1px blue;
+ color: silver;
+ text-shadow:
+     3px 3px 0 #000,
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  text-align:center;
+  padding: 7px 10px 8px 10px !important;
   margin-top: 100px;
+}
+p{
+  font-size: 25px;
 }
