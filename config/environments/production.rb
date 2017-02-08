@@ -69,9 +69,9 @@ Rails.application.configure do
   config.active_support.deprecation = :notify
 
   config.action_mailer.smtp_settings = {
-    address: '127.0.0.1',
-    port: 25,
-    domain: 'gmail.com',
+    address: 'smtp.gmail.com',
+    port: 587,
+    domain: 'enigmatic-springs-56858.herokuapp.com',
     authentication: 'plain',
     enable_starttls_auto: true,
     # user_name: Rails.application.secrets.email_provider_username,
