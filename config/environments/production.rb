@@ -74,8 +74,8 @@ Rails.application.configure do
     domain: 'enigmatic-springs-56858.herokuapp.com',
     authentication: 'plain',
     enable_starttls_auto: true,
-    user_name: Rails.application.secrets.email_provider_username,
-    password: Rails.application.secrets.email_provider_password
+    user_name: GMAIL_SMTP_USER,
+    password: GMAIL_SMTP_PASSWORD
 
     # address: 'smtp.gmail.com',
     # port: 587,
