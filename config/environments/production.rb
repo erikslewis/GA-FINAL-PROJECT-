@@ -71,7 +71,7 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
     address: "127.0.0.1",
     port: 1025,
-    domain: enigmatic-springs-56858.herokuapp.com
+    domain: 'enigmatic-springs-56858.herokuapp.com'
     # authentication: "plain",
     # enable_starttls_auto: true,
     # user_name: Rails.application.secrets.email_provider_username,
