@@ -6,10 +6,12 @@
 # you're free to overwrite the RESTful controller actions.
 module Admin
   class ApplicationController < Administrate::ApplicationController
+    secrets = Rails.application.secrets
+      http_basic_authenticate_with name: secrets.admin_name, password: secrets.admin_password
     before_action :authenticate_admin
 
     def authenticate_admin
-       redirect_to root_url unless current_user.try(:admin)
+      # redirect_to root_url unless current_user.try(:admin)
     end
 
     # Override this value to specify the number of elements to display at a time
