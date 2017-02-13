@@ -6,8 +6,10 @@ Camera & filters for pictures
 One click Image download ability
 Video Recording Studio With Options
 One click Video download ability
-Voice Command Music Player Bonus
+Voice Command Music Player
 
 Tech Used:
+Webrtc
+Firebase
 Rails
 Postgres
