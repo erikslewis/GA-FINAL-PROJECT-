@@ -63,11 +63,17 @@ main {
   padding-top: 30px;
   max-width: 320px;
   margin: 0 auto;
+  background-color: silver;
 }
 .authform form {
   @extend .well;
   @extend .well-lg;
   padding-bottom: 40px;
+  background-color: darkgray;
+  border-style: solid;
+  border-width: thick;
+  border-color: black;
+
 }
 .authform .right {
   float: right !important;
