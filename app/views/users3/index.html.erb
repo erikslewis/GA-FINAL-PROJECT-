@@ -12,7 +12,7 @@
 
 
 <section class="experiment">
-                <section>
+                <section class="animated bounceInUp">
                     <span>
                         Make Private Room? <a href="/video-conferencing/" target="_blank" title="Open this link in new tab. Then your conference room will be private!"><code><strong id="unique-token">#123456789</strong></code></a>
                     </span>
@@ -30,7 +30,7 @@
             </section>
 </div>
             <script>
-              
+
                 var config = {
                     openSocket: function(config) {
                         var channel = config.channel || location.href.replace( /\/|:|#|%|\.|\[|\]/g , '');
