@@ -15,7 +15,4 @@ Rails
 Postgres
 
 ![alt tag](/public/img/Screen Shot 2017-02-14 at 8.49.22 AM.png)
-![Alt text](../img/Screen Shot 2017-02-14 at 8.49.22 AM.png?raw=true "Optional Title")
-![alt tag](https://Users/Erik/rails-devise/public/img/Screen Shot 2017-02-14 at 8.49.22 AM.png)
-![Alt text](../img/Screen Shot 2017-02-14 at 8.49.22 AM.png?raw=true "Title")
-![alt text](screenshots/filename.png "Description goes here")
+
