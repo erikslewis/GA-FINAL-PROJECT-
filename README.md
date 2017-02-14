@@ -13,6 +13,6 @@ Webrtc
 Firebase
 Rails
 Postgres
+JavaScript
 
 ![alt tag](/public/img/Screen Shot 2017-02-14 at 8.49.22 AM.png)
-

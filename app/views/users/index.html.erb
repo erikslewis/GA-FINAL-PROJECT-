@@ -10,7 +10,7 @@
      <script src="https://cdn.pubnub.com/webrtc/rtc-controller.js"></script>
      <script src="https://cdn.pubnub.com/pubnub.min.js"></script>
      <script src="https://kevingleason.me/SimpleRTC/js/webrtc.js"></script>
-
+<script src=https://cdn.pubnub.com/sdk/javascript/pubnub.4.0.11.min.js></script>
 
 
 
@@ -46,7 +46,11 @@
 
 </div>
 
+Write and press enter
+<div><input id=input placeholder=you-chat-here /></div>
 
+Conversations
+<div id=box></div>
 
 </html>
 
@@ -150,8 +154,25 @@ function makeCall(form){
 
 
 
+(function(){
+      var pubnub = new PubNub({ publishKey : 'pub-c-59314080-afea-4424-b3e7-78c2ad363dc8', subscribeKey : 'sub-c-5a3874d0-e4e2-11e6-b325-02ee2ddab7fe' });
+      function $(id) { return document.getElementById(id); }
+      var box = $('box'), input = $('input'), channel = '10chat-demo';
+      pubnub.addListener({
+          message: function(obj) {
+              box.innerHTML = (''+obj.message).replace( /[<>]/g, '' ) + '<br>' + box.innerHTML
+          }});
+      pubnub.subscribe({channels:[channel]});
+      input.addEventListener('keyup', function(e) {
+          if ((e.keyCode || e.charCode) === 13) {
+            pubnub.publish({channel : channel,message : input.value,x : (input.value='')});
+        }
+      });
+})();</script>
 
-</script>
+
+
+
     <h3>Users</h3>
     <div class="column">
       <table class="table">
