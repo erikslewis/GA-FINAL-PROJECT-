@@ -46,10 +46,10 @@
 
 </div>
 
-Write and press enter
-<div><input id=input placeholder=you-chat-here /></div>
+<p>Write Then Press Enter</p>
+<div><input id=input placeholder=Write-Text-Here /></div>
 
-Conversations
+<p>CHATROOM</p>
 <div id=box></div>
 
 </html>
@@ -165,7 +165,7 @@ function makeCall(form){
       pubnub.subscribe({channels:[channel]});
       input.addEventListener('keyup', function(e) {
           if ((e.keyCode || e.charCode) === 13) {
-            pubnub.publish({channel : channel,message : input.value,x : (input.value='')});
+         pubnub.publish({channel : channel,message : input.value,x : (input.value='')});
         }
       });
 })();</script>
