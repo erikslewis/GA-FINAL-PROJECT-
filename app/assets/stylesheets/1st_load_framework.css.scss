@@ -276,7 +276,7 @@ border-radius: 12px;
     margin-left: -280px;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 550px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
@@ -453,7 +453,6 @@ width: 400px;
 
 }
 
-
 button{
   height: 55px;
   width: 55px;
@@ -587,4 +586,7 @@ p{
 }
 input#user_name.form-control{
   width: 270px;
+}
+@media only screen and (max-width: 200px) {
+
 }
