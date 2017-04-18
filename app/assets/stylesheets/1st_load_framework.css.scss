@@ -12,11 +12,23 @@ img {
   font-size: inherit;
  height: 140px;
 width: 140px;
-margin-left: -33px;
+margin-left: 300px;
+
 
 }
 .collapse.navbar-collapse{
-  width: 700px;
+  width: 900px;
+  margin-left: 50px;
+}
+ul.nav.navbar-nav{
+  border-style: double;
+  border-color: blue;
+  margin-top: 15px;
+
+  width: 760px;
+}
+.navbar.navbar-inverse.navbar-fixed-top{
+  margin-left: -100px;
 }
 
   div.column{
@@ -51,7 +63,7 @@ main {
   padding-top: 50px;
   height: 200px;
   width: 100%;
-  margin: 0 auto; // accommodate the navbar
+  margin: 20 auto; // accommodate the navbar
   }
 
 // Styles for form views
@@ -511,7 +523,8 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: bolder;
 
 margin: auto;
 
@@ -559,13 +572,7 @@ span{
   text-align:center;
   padding: 7px 10px 8px 10px !important;
 }
-ul.nav.navbar-nav{
-  border-style: double;
-  border-color: blue;
-  margin-top: 15px;
 
-  width: 540px;
-}
 h3{
   font-size: 35px;
   font-weight: bolder;
