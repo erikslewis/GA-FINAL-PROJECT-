@@ -51,8 +51,9 @@
         <option value="filter_mayfair">Mayfair</option>
         <option value="filter_1977">1977</option>
     </select>
-
+<br>
     <button class="animated infinite pulse" id="snapshot">Take Photo</button>
+    <br>
 <a id="download">Download Your Picture</a><br>
     <canvas></canvas>
 
@@ -173,7 +174,7 @@ var filterSelect = document.querySelector('select#filter');
 var video = window.video = document.querySelector('video');
 var canvas = window.canvas = document.querySelector('canvas');
 canvas.width = 480;
-canvas.height = 360;
+canvas.height = 340;
 
 snapshotButton.onclick = function() {
   canvas.className = filterSelect.value;
