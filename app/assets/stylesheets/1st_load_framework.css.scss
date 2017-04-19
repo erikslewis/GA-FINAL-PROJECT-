@@ -192,10 +192,10 @@ input.fit2{
 body{
   text-align: center;
   background-color: black;
-  background-image: url('');
+  background-image: url('https://dncache-mauganscorp.netdna-ssl.com/thumbseg/77/77135-bigthumbnail.jpg');
   background-repeat: no-repeat;
 background-position: center;
-background-size:cover;
+background-size:contain;
 background-attachment: fixed;
 }
 input[type=text] {
@@ -593,6 +593,8 @@ h3{
 p{
   font-size: 35px;
   color: silver;
+  font-weight: bolder;
+    -webkit-text-stroke: 1px black;
 }
 input#user_name.form-control{
   width: 270px;
