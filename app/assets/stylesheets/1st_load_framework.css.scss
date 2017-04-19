@@ -73,13 +73,13 @@ main {
   padding-top: 30px;
   max-width: 320px;
   margin: 0 auto;
-  background-color: silver;
+
 }
 .authform form {
   @extend .well;
   @extend .well-lg;
   padding-bottom: 40px;
-  background-color: darkgray;
+
   border-style: solid;
   border-width: thick;
   border-color: black;
@@ -133,7 +133,7 @@ width: 500px;
 }
 h2{
   color:white;
-  
+
 }
 input{
   color:red;
@@ -524,7 +524,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bolder;
 
 margin: auto;
@@ -598,6 +598,7 @@ p{
 }
 input#user_name.form-control{
   width: 270px;
+
 }
 @media only screen and (max-width: 200px) {
 
