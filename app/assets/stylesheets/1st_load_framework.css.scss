@@ -216,6 +216,11 @@ input[type=text] {
     transition: width 0.4s ease-in-out;
 
 }
+#box{
+  color:silver;
+  font-size: 20px;
+  background-color: black;
+}
 
 input[type=text]:focus {
     width: 100%;
