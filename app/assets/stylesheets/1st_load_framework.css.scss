@@ -651,15 +651,30 @@ article{
         display: inline-block;
     }
 
-    .recordrtc button, .recordrtc select {
+    .recordrtc button{
+      vertical-align: middle;
+      line-height: 1;
+      padding: 2px 5px;
+      height: auto;
+      font-size: inherit;
+      margin: 0;
+      background-color:red;
+      color: black;
+    border-color: blue;
+  border-style: outset;
+border-width: thick;}
+    .recordrtc select {
         vertical-align: middle;
         line-height: 1;
         padding: 2px 5px;
         height: auto;
         font-size: inherit;
         margin: 0;
-        background-color: #0000ff;
+        background-color:blue;
         color: white;
+        border-color: silver;
+      border-style: outset;
+    border-width: thick;
     }
 
     .recordrtc, .recordrtc .header {
