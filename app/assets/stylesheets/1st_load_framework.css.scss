@@ -182,11 +182,13 @@ input.fit2{
 #myimage{
   width: 149px;
   height: 145px;
+  border-color: transparent;
 }
 
 #myimage1{
   width: 130px;
   height: 120px;
+  border-color: transparent;
 }
 
 body{
@@ -461,8 +463,6 @@ margin:auto;
 width: 418px;
 display: inline;
 
-
-
 }
 
 button{
@@ -685,7 +685,7 @@ border-width: thick;}
 
     .recordrtc video {
         width: 70%;
-        border-style: solid;
+        border-style: double;
         border-width: thick;
         border-color: blue;
     }
