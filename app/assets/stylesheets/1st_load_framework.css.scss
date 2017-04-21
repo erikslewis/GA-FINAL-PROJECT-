@@ -139,6 +139,7 @@ input{
   color:red;
   text-align: center;
 
+
 }
 img.fit7{
   width: 459px;
@@ -175,7 +176,7 @@ input.fit2{
   width: 195px;
   display: block;
   margin: 0 auto;
-  color: black;
+  color: red;
   font-weight: bolder;
 }
 
@@ -203,7 +204,7 @@ background-attachment: fixed;
 input[type=text] {
     width: 330px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 2px solid blue;
     border-radius: 4px;
     font-size: 16px;
     background-color: white;
