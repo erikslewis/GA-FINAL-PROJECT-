@@ -50,7 +50,23 @@
 <div class="animated zoomIn"><input id=input placeholder=Write-Text-Here /></div>
 
 <p class="animated zoomIn">CHATROOM</p>
-<div id=box></div>
+<div class="animated zoomIn" id=box></div>
+
+<h3 class="animated zoomIn">Users</h3>
+<div class="column">
+  <table class="table">
+    <tbody>
+      <% @users.each do |user| %>
+        <tr>
+          <%= render user %>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+</div>
+</div>
+
 
 </html>
 
@@ -169,21 +185,3 @@ function makeCall(form){
         }
       });
 })();</script>
-
-
-
-
-    <h3>Users</h3>
-    <div class="column">
-      <table class="table">
-        <tbody>
-          <% @users.each do |user| %>
-            <tr>
-              <%= render user %>
-            </tr>
-          <% end %>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</div>
