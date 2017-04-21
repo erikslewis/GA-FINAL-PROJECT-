@@ -604,3 +604,77 @@ input#user_name.form-control{
 @media only screen and (max-width: 200px) {
 
 }
+
+
+audio {
+    vertical-align: bottom;
+    width: 10em;
+}
+video {
+    max-width: 100%;
+    vertical-align: top;
+}
+input {
+    border: 1px solid red;
+    border-radius: 1px;
+    font-size: 2em;
+    margin: .2em;
+    width: 30%;
+}
+p,
+.inner {
+    padding: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 8em;
+}
+
+
+
+article{
+  margin-top: 60px;
+  background-color: black;
+
+}
+    .recordrtc button {
+        font-size: inherit;
+        font-weight: bolder;
+        border-style: double;
+        border-color: silver;
+        background-color: silver;
+        width: 210px;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+    .recordrtc button, .recordrtc select {
+        vertical-align: middle;
+        line-height: 1;
+        padding: 2px 5px;
+        height: auto;
+        font-size: inherit;
+        margin: 0;
+        background-color: #0000ff;
+        color: white;
+    }
+
+    .recordrtc, .recordrtc .header {
+        display: inline-block;
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .recordrtc video {
+        width: 70%;
+        border-style: solid;
+        border-width: thick;
+        border-color: silver;
+    }
+
+    .recordrtc option[disabled] {
+        display: none;
+    }
